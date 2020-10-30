@@ -13,7 +13,11 @@
 function userInput(numbers) {
   if (numbers === 1) {
     return "beep"
-  }
+  } else if (numbers === 2) {
+    return "boop"
+  } else if (Numbers === 3)
+    return "wont you be my neighbor"
 }
+
 
 //UI Logic//
