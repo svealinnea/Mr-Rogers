@@ -1,5 +1,13 @@
 //Business Logic//
-//Describe: inputNumbers()
+function userInput(numbers) {
+ 
+ 
+
+
+//UI Logic//
+
+
+//Describe: UserInput()
 
 //Test 1: "It will return "Beep!" for all numbers that have a 1 in it."
 //Expect: inputNumbers(1).toEqual("Beep!")
@@ -9,15 +17,3 @@
 
 //Test 3: "It will return "Won't you be my neighbor? if a 3 is entered"
 //Expect inputNumbers(3).toEqual("Won't you be my neighbor?")
-
-function userInput(numbers) {
-  if (numbers === 1) {
-    return "beep"
-  } else if (numbers === 2) {
-    return "boop"
-  } else if (Numbers === 3)
-    return "wont you be my neighbor"
-}
-
-
-//UI Logic//
