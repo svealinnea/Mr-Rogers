@@ -7,6 +7,9 @@
 //Test 2: "It will return "boop" for all numbers that have a 2 in it."
 //Expect: inputNumbers(2).toEqual("Boop!")
 
+//Test 3: "It will return "Won't you be my neighbor?"
+//
 
-
+function inputNumbers(numbers) {
+  
 //UI Logic//
