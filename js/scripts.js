@@ -6,6 +6,8 @@ function readInput(userInput) {
     array.push(i);
   }return array;
 }
+
+
   
 
 
