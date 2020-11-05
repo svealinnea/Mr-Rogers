@@ -3,20 +3,28 @@
 function readInput(userInput) {
   const inputAsANumber = parseInt(userInput);
   let array = [];
-  for (let i=0; i <= userInput; i++) {
-    if ([i].toString().includes("1")) {
-      array.push("beep!")
+  for (let i = 0; i <= userInput; i++) {
+      if ([i].toString().includes("3")) {
+        array.push(" Won't you be my Neighbor ")
+       } else if ([i].toString().includes("2")) {
+        array.push(" Boop ")
+      } else if ([i].toString().includes("1")) {
+        array.push(" beep! ")
+    } else {
+      array.push (" " + i)
     }
   } return array
 }
 
-
-  
-
-
-
 //UI Logic//
-
+$(document).ready(function(){
+  $("form#Rogers").submit(function(event){
+    event.preventDefault();
+    const userInput = $("input#number").val();
+    const answer = readInput(userInput);
+    $("#result").text(answer)
+    });
+  });
 
 
 //Describe: readInput()
