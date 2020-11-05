@@ -1,10 +1,13 @@
 //Business Logic//
-//Test 1
+
 function readInput(userInput) {
+  const inputAsANumber = parseInt(userInput);
   let array = [];
-  for (i=0; i<=userInput; i++) {
-    array.push(i);
-  }return array;
+  for (let i=0; i <= userInput; i++) {
+    if ([i].toString().includes("1")) {
+      array.push("beep!")
+    }
+  } return array
 }
 
 
