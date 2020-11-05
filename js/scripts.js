@@ -1,34 +1,12 @@
 //Business Logic//
+//Test 1
 function readInput(userInput) {
-  let inputArray = [];
- 
-  for (let i = 0; i <= userInput.length; i++)
-  if (userInput.includes(3)) {
-    inputArray.push("Won't you be my neighbor");
-
-  } else if (userInput.includes(2)) {
-    inputArray.push("Boop");
-
-  } else if (userInput.includes(1)) {
-    inputArray.push("Beep");  
-  } else {
-    inputArray.push[i];
-  }
-  return inputArray;
+  return [userInput];
 }
 
 
 //UI Logic//
-$(document).ready(function() {
-  $("form#Rogers").submit(function(event){
-    event.preventDefault();
-    const inputNumber = parseInt($("input#number").val());
-    const results = readInput(inputNumber);
-    $("#button").submit(function() {
-     $("#result").text(results);
-    });
-  });
-});
+
 
 
 //Describe: readInput()
